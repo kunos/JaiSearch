@@ -43,7 +43,7 @@ export function activate(context: vscode.ExtensionContext) {
 				isCaseSensitive: true,
 			});
 
-			vscode.window.showInformationMessage(message);
+			//vscode.window.showInformationMessage(message);
 		} else {
 			vscode.window.showInformationMessage("JaiSearch: No selection");
 		}

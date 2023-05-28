@@ -39,8 +39,8 @@ export function activate(context: vscode.ExtensionContext) {
 			vscode.commands.executeCommand('workbench.action.findInFiles', {
 				query: jaiSymbol,
 				triggerSearch: true,
-				matchWholeWord: true,
-				isCaseSensitive: true,
+				matchWholeWord: false,
+				isCaseSensitive: false,
 			});
 
 			//vscode.window.showInformationMessage(message);
